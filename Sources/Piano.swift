@@ -234,6 +234,7 @@ public class Piano {
         for timer in Piano.default.timers {
             timer.invalidate()
         }
+        Piano.default.player?.stop()
         Piano.default.timers.removeAll()
     }
     
