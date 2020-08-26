@@ -1,1 +1,0 @@
-.gitroyalty/Piano.podspec
